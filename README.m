@@ -35,3 +35,6 @@ Manual:
 1 : set low speed
 2 : set high speed
 - : don’t change the state of this fan
+
+working script:
+https://askubuntu.com/questions/419199/which-software-controls-the-fan-on-dell-sputnik
