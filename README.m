@@ -38,3 +38,18 @@ Manual:
 
 working script:
 https://askubuntu.com/questions/419199/which-software-controls-the-fan-on-dell-sputnik
+
+
+# PDF to JPG
+source: https://www.linuxuprising.com/2019/03/how-to-convert-pdf-to-image-png-jpeg.html
+Tool: pdftoppm
+Command:
+```
+pdftoppm -png document.pdf document
+```
+to convert an entire PDF (document.pdf) to PNG, and name each page of the PDF converted to PNG as document-01.png, document-02.png and so on:
+for jpg use -jpeg
+example:
+```
+pdftoppm -jpeg passport_new.pdf passport_new_jpg
+```
