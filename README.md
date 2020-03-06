@@ -53,3 +53,10 @@ example:
 ```
 pdftoppm -jpeg passport_new.pdf passport_new_jpg
 ```
+
+
+# resize jpg
+```
+convert -resize 50% pic.jpg  pic_%50.jpg
+```
+
