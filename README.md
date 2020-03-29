@@ -5,7 +5,21 @@
 ```
 # Screen
   
-  ```
+### Using method  
+```
+ssh me@myserver.com
+screen               #start a screen session
+run-a-long-process
+CTRL+a , d to detatch from your screen session
+exit                 #disconnect from the server, while run-a-long-process continues
+```
+When you come back to your laptop:
+```
+ssh me@myserver.com
+screen -r            #resume the screen session
+```
+
+```
   screen            ---> to creat 
   screan ~r <name>  ---> to reconnect
   screan ~rls       ---> to list the screens
