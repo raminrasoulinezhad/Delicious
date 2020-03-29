@@ -1,3 +1,8 @@
+# Runnign something and closing ssh
+
+  nohup long-running-process &
+  exit
+
 # Screen
   
   
