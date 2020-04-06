@@ -82,3 +82,10 @@ pdftoppm -jpeg passport_new.pdf passport_new_jpg
 convert -resize 50% pic.jpg  pic_%50.jpg
 ```
 
+# ArXiv
+
+1- Download the overleaf folder
+2- download .bbl file from intermediary files
+3- rename it to main .tex file
+
+
