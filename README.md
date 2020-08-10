@@ -89,3 +89,7 @@ convert -resize 50% pic.jpg  pic_%50.jpg
     3- rename it to main .tex file
 
 
+# Vivado 
+To see the part names:
+
+ls  /opt/Xilinx/Vivado/2019.2/data/parts/xilinx/virtexuplus/public/bsdl/FileMap.txt
