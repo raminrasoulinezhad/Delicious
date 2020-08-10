@@ -92,5 +92,12 @@ convert -resize 50% pic.jpg  pic_%50.jpg
 # Vivado 
 To see the part names:
 ```
-  ls  /opt/Xilinx/Vivado/2019.2/data/parts/xilinx/virtexuplus/public/bsdl/FileMap.txt
+ls  /opt/Xilinx/Vivado/2019.2/data/parts/xilinx/virtexuplus/public/bsdl/FileMap.txt
+```
+
+# Tuna (license)
+```
+sudo /opt/licence/lnx64.o/lmgrd -c /opt/licence/lics/xilinx.lic -l /opt/licence/logs/xilinx.log
+sudo /opt/licence/lnx64.o/lmgrd -c /opt/licence/lics/cadence.lic -l /opt/licence/logs/cadence.log
+sudo /opt/licence/lnx64.o/lmgrd -c /opt/licence/lics/intel.lic -l /opt/licence/logs/intel.log 
 ```
