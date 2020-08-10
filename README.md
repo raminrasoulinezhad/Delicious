@@ -92,4 +92,4 @@ convert -resize 50% pic.jpg  pic_%50.jpg
 # Vivado 
 To see the part names:
 
-ls  /opt/Xilinx/Vivado/2019.2/data/parts/xilinx/virtexuplus/public/bsdl/FileMap.txt
+  ls  /opt/Xilinx/Vivado/2019.2/data/parts/xilinx/virtexuplus/public/bsdl/FileMap.txt
