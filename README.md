@@ -101,3 +101,14 @@ sudo /opt/licence/lnx64.o/lmgrd -c /opt/licence/lics/xilinx.lic -l /opt/licence/
 sudo /opt/licence/lnx64.o/lmgrd -c /opt/licence/lics/cadence.lic -l /opt/licence/logs/cadence.log
 sudo /opt/licence/lnx64.o/lmgrd -c /opt/licence/lics/intel.lic -l /opt/licence/logs/intel.log 
 ```
+
+# Yosys
+
+to set the parameters during synthesis (check in USYD PC   /workspace/rccm_train/HDL/yosys_test/lsfr_130.ys):
+
+```
+# read design
+read -sv  ../LFSR/verilog/LFSR.v 
+chparam -set NUM_BITS 10 LFSR
+hierarchy -top LFSR
+```
