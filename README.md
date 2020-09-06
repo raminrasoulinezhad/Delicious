@@ -21,11 +21,11 @@ screen -r            #resume the screen session
 
 ```
   screen            ---> to creat 
-  screan ~r <name>  ---> to reconnect
-  screan ~rls       ---> to list the screens
+  screan -r <name>  ---> to reconnect
+  screan -ls        ---> to list the screens
   
   cntr + AD         ---> temp close
-  cntr + AK         ---> kill
+  cntr + AK         ---> kill (or write exit inside the opened screen)
   
   cntr + AN         ---> next screen
   cntr + AS         ---> splite
