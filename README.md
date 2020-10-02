@@ -112,3 +112,16 @@ read -sv  ../LFSR/verilog/LFSR.v
 chparam -set NUM_BITS 10 LFSR
 hierarchy -top LFSR
 ```
+
+
+# Wechat on ubuntu
+
+1- install rambox
+```
+sudo snap install rambox
+```
+2- run the rambox from the menu
+3- search and install weechat
+4- scann the code --> Does Not work for my account :))
+
+
