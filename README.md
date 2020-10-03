@@ -124,4 +124,8 @@ sudo snap install rambox
 3- search and install weechat
 4- scann the code --> Does Not work for my account :))
 
+# Skype
+```
+sudo snap install skype --classic
+```
 
