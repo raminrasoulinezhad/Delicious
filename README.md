@@ -129,3 +129,10 @@ sudo snap install rambox
 sudo snap install skype --classic
 ```
 
+# Merge PDF files by linux command
+```
+qpdf --empty --pages *.pdf -- out.pdf
+```
+
+
+
