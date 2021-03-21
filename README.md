@@ -134,5 +134,20 @@ sudo snap install skype --classic
 qpdf --empty --pages *.pdf -- out.pdf
 ```
 
+# Installing Xilinx tools (Vivado/Vitis/...) change cmake installation location 
 
+It cause problem with installing/upgrading/removing cmake. To solve this, you can give `/usr/local/bin` or `/usr/bin` priority by adding them to your path after vivado paths:
 
+    export PATH=/usr/local/bin:$PATH
+    which cmake
+
+To do it permanently:
+
+    vim ~/.bashrc
+
+and add this line at the end of the file:
+
+    PATH=/usr/local/bin:$PATH
+
+Source of solution: https://stackoverflow.com/questions/64346732/i-have-an-issue-about-cmake-version
+ 
