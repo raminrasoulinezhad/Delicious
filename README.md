@@ -134,7 +134,17 @@ sudo snap install skype --classic
 qpdf --empty --pages *.pdf -- out.pdf
 ```
 
-# Installing Xilinx tools (Vivado/Vitis/...) change cmake installation location 
+# to isntall vtr:
+If you have any problem with cmake version: check this: "Installing Xilinx tools (Vivado/Vitis/...) change cmake installation location" as the following title
+
+Also, don't forget to isntall these libraries before vtr installation:
+
+    sudo apt install libtbb-dev
+    sudo apt install libeigen3-dev
+    sudo apt install libgtk-3-dev libx11-dev
+
+
+### Installing Xilinx tools (Vivado/Vitis/...) change cmake installation location 
 
 It cause problem with installing/upgrading/removing cmake. To solve this, you can give `/usr/local/bin` or `/usr/bin` priority by adding them to your path after vivado paths:
 
