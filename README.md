@@ -160,4 +160,7 @@ and add this line at the end of the file:
     PATH=/usr/local/bin:$PATH
 
 Source of solution: https://stackoverflow.com/questions/64346732/i-have-an-issue-about-cmake-version
- 
+
+### Github readme.md file Cheat sheet
+
+    https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
