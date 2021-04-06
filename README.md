@@ -164,3 +164,8 @@ Source of solution: https://stackoverflow.com/questions/64346732/i-have-an-issue
 ### Github readme.md file Cheat sheet
 
     https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
+### Pup a notification on Phone whenthe code is finished
+follow this website: https://betterprogramming.pub/how-to-send-push-notifications-to-your-phone-from-any-script-6b70e34748f6 . At the end you need a command to be added to your script. you can find it from the android app in your user id and user link section.    
+      
+<!--    curl -s -o /dev/null POST https://maker.ifttt.com/trigger/MLBlock_notify/with/key/gsIw7J54gk9BLXgAtqYeF0Si3PDcr8KXaWux1tdFUF9?value1=TheCodeIsDone  -->
+
