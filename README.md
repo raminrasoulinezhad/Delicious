@@ -169,3 +169,8 @@ follow this website: https://betterprogramming.pub/how-to-send-push-notification
       
 <!--    curl -s -o /dev/null POST https://maker.ifttt.com/trigger/MLBlock_notify/with/key/gsIw7J54gk9BLXgAtqYeF0Si3PDcr8KXaWux1tdFUF9?value1=TheCodeIsDone  -->
 
+### Download a link
+
+    curl -O link
+    
+
