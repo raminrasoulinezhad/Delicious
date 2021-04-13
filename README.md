@@ -173,4 +173,7 @@ follow this website: https://betterprogramming.pub/how-to-send-push-notification
 
     curl -O link
     
+### Undo a commit if it is not pushed to github yet
+    
+    git reset HEAD~1 --soft
 
