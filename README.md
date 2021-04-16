@@ -180,4 +180,24 @@ follow this website: https://betterprogramming.pub/how-to-send-push-notification
 ### Zip a folder
 
     zip -r filename.zip folder
-   
+
+### Loop in Bash scripts:
+
+source: https://www.cyberciti.biz/faq/bash-for-loop/
+
+    for i in {0..10..2}
+    do 
+        echo "Welcome $i times"
+    done
+    
+Output:
+    
+    Bash version 4.0.33(0)-release...
+    Welcome 0 times
+    Welcome 2 times
+    Welcome 4 times
+    Welcome 6 times
+    Welcome 8 times
+    Welcome 10 times
+    
+    
