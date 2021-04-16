@@ -177,3 +177,7 @@ follow this website: https://betterprogramming.pub/how-to-send-push-notification
     
     git reset HEAD~1 --soft
 
+### Zip a folder
+
+    zip -r filename.zip folder
+   
