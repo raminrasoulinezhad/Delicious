@@ -201,3 +201,10 @@ Output:
     Welcome 10 times
     
     
+# Vivado HLS bugs:
+1- gdb:
+
+https://www.xilinx.com/support/answers/70369.html
+https://forums.xilinx.com/t5/Embedded-Linux/Vitis-hls-2020-1-debugger-doesn-t-start/td-p/1179509
+
+
